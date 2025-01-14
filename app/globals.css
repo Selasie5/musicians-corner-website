@@ -13,8 +13,8 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/Newest-152.jpg');
-  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Newest-152.jpg');
+  height: 87vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

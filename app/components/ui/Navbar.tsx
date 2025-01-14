@@ -36,7 +36,7 @@ const Navbar = () => {
             <Image src="/mc_logo.png" alt="musicians-corner-logo" width={100} height={100}/>
             </div> 
 
-            <div className="flex justify-between items-center space-x-10">
+            <div className="flex justify-between items-center gap-10">
                 {Links.map((link, index)=>
                 (
                     <Link href={link.path} key={index} className='text-white hover:text-lime-500'>
