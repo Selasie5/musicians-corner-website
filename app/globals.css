@@ -7,28 +7,24 @@ body {
   font-family: "DM Sans",Arial, Helvetica, sans-serif;
 }
 
-.heading,h1,h2,h3,h4,h5,h6
+/* .heading,h1,h2,h3,h4,h5,h6
 {
   font-family: "DM Serif Text",Arial, Helvetica, sans-serif;
+} */
+.embla {
+  overflow: hidden;
 }
 
-.hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/Newest-152.jpg');
-  height: 87vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+.embla__container {
+  display: flex;
+  gap: 0.1rem; /* Adjust gap between slides */
 }
 
-.hero-navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10; /* Ensures the navbar stays above the hero content */
-  background: transparent;
+.embla__slide {
+  flex: 0 0 auto; /* Ensures slides don't shrink */
 }
+
+
 
 
 

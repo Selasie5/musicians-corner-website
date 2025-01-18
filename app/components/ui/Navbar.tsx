@@ -30,7 +30,7 @@ const Navbar = () => {
         },
     ]
   return (
-    <section className='hero-navbar w-full px-10 py-6'>
+    <section className='bg-black w-full px-10 py-6'>
         <nav className='flex justify-between items-center'>
           <div>
             <Image src="/mc_logo.png" alt="musicians-corner-logo" width={100} height={100}/>
