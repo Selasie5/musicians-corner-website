@@ -39,13 +39,13 @@ const Navbar = () => {
             <div className="flex justify-between items-center gap-10">
                 {Links.map((link, index)=>
                 (
-                    <Link href={link.path} key={index} className='text-white hover:text-lime-500'>
+                    <Link href={link.path} key={index} className='text-white hover:text-orange-500'>
                         {link.name}
                         </Link>
                 ))}
                 </div> 
                 <div>
-                    <button className='bg-lime-500 text-black text-sm px-5 py-5 uppercase flex justify-center items-center gap-4'>
+                    <button className='bg-orange-500 text-black text-sm px-5 py-5 uppercase flex justify-center items-center gap-4'>
                         <hr className="bg-black h-[0.1rem] border-0 w-10"/> {" "}
                         Partner With Us
                         </button>
