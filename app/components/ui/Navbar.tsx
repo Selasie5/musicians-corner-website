@@ -60,7 +60,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div
           className={`flex-col lg:flex lg:flex-row lg:gap-10 absolute lg:static left-0 top-0 lg:top-auto w-full lg:w-auto bg-black lg:bg-transparent transition-transform duration-300 ${
-            isMenuOpen ? "flex bg-opacity-90 h-screen py-20" : "hidden"
+            isMenuOpen ? "flex bg-opacity-95 h-screen py-20 z-20" : "hidden"
           }`}
         >
           {Links.map((link, index) => (
@@ -85,7 +85,7 @@ const Navbar = () => {
       {/* Overlay background for mobile menu */}
       {isMenuOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-70 z-10"
+          className="fixed inset-0 bg-black bg-opacity-95 z-10"
           onClick={() => setIsMenuOpen(false)}
         />
       )}
