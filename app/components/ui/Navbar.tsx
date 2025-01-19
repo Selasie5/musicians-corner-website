@@ -10,23 +10,23 @@ const Navbar = () => {
     const Links: Links[]=[
         {
             name:"Home",
-            path:"/"
+            path:"/#home"
         },
         {
             name:"About",
-            path:"/"
+            path:"/#about"
         },
         {
             name:"Events",
-            path:"/"
+            path:"/#events"
         },
         {
             name:"Gallery",
-            path:"/"
+            path:"/#gallery"
         },
         {
             name:"Contact",
-            path:"/"
+            path:"/#contact"
         },
     ]
   return (

@@ -97,7 +97,7 @@ export default function Home() {
       </div>
       </section>
 
-    <section className="flex justify-center items-center gap-36">
+    <section className="flex justify-center items-center gap-36" id="about">
       <div className="w-1/2 flex flex-col gap-4">
           <h1 className=" text-white text-3xl font-bold inview"> 
            <span className="bg-orange-500 rounded-xl p-1">
@@ -122,7 +122,7 @@ Join us as we build a community of passionate music lovers and creators.
         </div>
       </section>
 
-<section className="flex flex-col justify-center items-center gap-4">
+<section className="flex flex-col justify-center items-center gap-4" id="events">
 <h2 className="text-white text-4xl font-semibold inview ">Upcoming {" "} 
   <span className="text-orange-500 font-bold">
   Events & Sessions
@@ -146,7 +146,7 @@ Join us as we build a community of passionate music lovers and creators.
     </div>
 </section>
 
-<section className="flex flex-col justify-center items-center gap-4">
+<section className="flex flex-col justify-center items-center gap-4" id="gallery">
 <h2 className="text-4xl font-semibold inview">Gallery</h2>
 <p className="text-gray-200 font-medium inview">Here are some pictures from some our past events</p>
 <div className="flex flex-col justify-start items-start gap-10 w-full">
