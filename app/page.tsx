@@ -67,18 +67,18 @@ export default function Home() {
     <main className="bg-black text-white mx-auto h-auto p-10 space-y-24">
       {/* Hero Section */}
       <section className="hero h-auto flex flex-col justify-center items-center gap-4 py-10 text-center">
-        <h1 className="text-white text-6xl font-semibold">
+        <h1 className="text-white text-6xl font-semibold inview">
           Inspiring the Next Generation of Musicians
         </h1>
-        <p className="text-white font-normal text-lg w-4/5 md:w-2/3 lg:w-1/2">
+        <p className="text-white font-normal text-lg w-4/5 md:w-2/3 lg:w-1/2 inview">
           A unique platform where seasoned musicians share their insights,
           perform soul-stirring renditions, and inspire music enthusiasts.
         </p>
-        <button className="mt-4 border border-white uppercase px-5 py-3 text-white text-md">
+        <button className="mt-4 border border-white uppercase px-5 py-3 text-white text-md inview">
           View Upcoming Events
         </button>
           {/* Carousel Section */}
-      <div className="embla w-full px-10 overflow-hidden" ref={emblaRef}>
+      <div className="embla w-full px-10 overflow-hidden inview" ref={emblaRef}>
         <div className="embla__container flex">
           {musicians.map((musician) => (
             <div
@@ -99,13 +99,13 @@ export default function Home() {
 
     <section className="flex justify-center items-center gap-36">
       <div className="w-1/2 flex flex-col gap-4">
-          <h1 className=" text-white text-3xl font-bold"> 
+          <h1 className=" text-white text-3xl font-bold inview"> 
            <span className="bg-orange-500 rounded-xl p-1">
            🎶
             </span> 
              Our Mission: Bridging Generations of Music Enthusiasts
 </h1>
-<p className="leading-8 text-lg font-extralight">
+<p className="leading-8 text-lg font-extralight inview">
 At The Musician's Corner, we believe music has the power to connect, inspire, and transform. Our initiative brings together renowned musicians from diverse genres to share their experiences, conduct workshops, and perform unforgettable renditions.
 
 Through live sessions, interactive workshops, and online engagements, we aim to:
@@ -116,18 +116,18 @@ Celebrate the universal language of music.
 Join us as we build a community of passionate music lovers and creators.
 </p>
         </div>
-        <div className=" flex flex-col justify-start items-start">
+        <div className=" flex flex-col justify-start items-start inview">
           <Image src="/ceo.jpg" width={300} height={300} alt="" className="rounded-lg"/>
           <span className="text-white font-bold italic text-lg">Godfred Ababio, CEO </span>
         </div>
       </section>
 
 <section className="flex flex-col justify-center items-center gap-4">
-<h2 className="text-white text-4xl font-semibold ">Upcoming {" "} 
+<h2 className="text-white text-4xl font-semibold inview ">Upcoming {" "} 
   <span className="text-orange-500 font-bold">
   Events & Sessions
     </span></h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-24 inview">
       <div className="flex flex-col justify-start items-start gap-4">
     <Image src="/flier-1.jpg" width={300} height={300} alt="" className="rounded-lg"/>
     <span className="text-2xl font-medium">The Tiny Desk</span>
@@ -135,7 +135,7 @@ Join us as we build a community of passionate music lovers and creators.
       <Link href="">Register</Link>
       </button>
       </div>
-      <div className="flex flex-col justify-start items-start gap-4">
+      <div className="flex flex-col justify-start items-start gap-4 inview">
       <Image src="/flier-2.jpg" width={300} height={300} alt="" className="rounded-lg"/>
       <span className="text-2xl font-medium">The Change Experience</span>
     <button className="text-white border border-white px-10 py-2 hover:bg-orange-500 hover:border-none transition-all">
@@ -147,27 +147,47 @@ Join us as we build a community of passionate music lovers and creators.
 </section>
 
 <section className="flex flex-col justify-center items-center gap-4">
-<h2 className="text-4xl font-semibold">Gallery</h2>
-<p className="text-gray-200 font-medium">Here are some pictures from some our past events</p>
+<h2 className="text-4xl font-semibold inview">Gallery</h2>
+<p className="text-gray-200 font-medium inview">Here are some pictures from some our past events</p>
 <div className="flex flex-col justify-start items-start gap-10 w-full">
-<div>
-  <span className="bg-orange-500 px-5 py-2 ">Musician's Corner Virtual Room Episode 1</span>
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+<div className="flex flex-col justify-start items-start gap-5">
+  <span className="bg-orange-500 px-5 py-2 inview">Musician's Corner Virtual Room Episode 1</span>
+  <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+    <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
+    <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
     </div>
   </div>
-<div>
-  <span className="bg-orange-500 px-5 py-2 ">Musician's Corner Virtual Room Episode 2</span>
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+<div className="flex flex-col justify-start items-start gap-5">
+  <span className="bg-orange-500 px-5 py-2 inview">Musician's Corner Virtual Room Episode 2</span>
+    <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+    <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
+    <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
     </div>
   </div>
-<div>
-  <span className="bg-orange-500 px-5 py-2 ">Mixing and Mastering Class</span>
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+<div className="flex flex-col justify-start items-start gap-5">
+  <span className="bg-orange-500 px-5 py-2 inview ">Mixing and Mastering Class</span>
+  <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+  <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
+    <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
     </div>
   </div>
-<div>
-  <span className="bg-orange-500 px-5 py-2 ">Musician's Hangout</span>
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
+<div className="flex flex-col justify-start items-start gap-5">
+  <span className="bg-orange-500 px-5 py-2 inview ">Musician's Hangout</span>
+  <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+  <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
+    <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
+    <Image src="/Newest-183.jpg" width={200} height={200} alt="" />
     </div>
   </div>
 </div>
