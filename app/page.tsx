@@ -12,43 +12,43 @@ export default function Home() {
       name: "Dave Jazzy",
       role: "Drummer, Music Producer",
       backgroundImage: "/Newest-131.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/dave_jazzi/",
     },
     {
       name: "GuitMaestro",
       role: "Lead Guitarist",
       backgroundImage: "/Newest-147.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/guitmaestro/",
     },
     {
       name: "Mike BSharp",
       role: "Keyboardist, Producer",
       backgroundImage: "/Newest-177.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/mike_bsharp/",
     },
     {
       name: "Jhay Squid",
       role: "Lead Guitarist, Producer",
       backgroundImage: "/Newest-184.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/jhay_squid/",
     },
     {
       name: "Patrick Okrah",
       role: "Keyboardist, Producer",
       backgroundImage: "/Newest-187.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/patrickokrah/",
     },
     {
       name: "Osei Poku",
       role: "Bass Guitarist, Producer",
       backgroundImage: "/Newest-160.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/oseipoku_emmanuel/",
     },
     {
       name: "Nii Keyz",
       role: "Keyboardist, Producer",
       backgroundImage: "/nii.jpg",
-      instagramLink: "https://instagram.com/johnlegend",
+      instagramLink: "https://www.instagram.com/nii.keyz_official/",
     },
   ];
 
@@ -75,7 +75,10 @@ export default function Home() {
           perform soul-stirring renditions, and inspire music enthusiasts.
         </p>
         <button className="mt-4 border border-white uppercase px-5 py-3 text-white text-md inview">
-          View Upcoming Events
+          <Link href="/#events"
+>
+View Upcoming Events
+  </Link>         
         </button>
           {/* Carousel Section */}
       <div className="embla w-full px-10 overflow-hidden inview" ref={emblaRef}>
