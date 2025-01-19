@@ -106,7 +106,7 @@ export default function Home() {
              Our Mission: Bridging Generations of Music Enthusiasts
 </h1>
 <p className="leading-8 text-lg font-extralight inview">
-At The Musician's Corner, we believe music has the power to connect, inspire, and transform. Our initiative brings together renowned musicians from diverse genres to share their experiences, conduct workshops, and perform unforgettable renditions.
+At The Musician&apos;s Corner, we believe music has the power to connect, inspire, and transform. Our initiative brings together renowned musicians from diverse genres to share their experiences, conduct workshops, and perform unforgettable renditions.
 
 Through live sessions, interactive workshops, and online engagements, we aim to:
 
@@ -151,7 +151,7 @@ Join us as we build a community of passionate music lovers and creators.
 <p className="text-gray-200 font-medium inview">Here are some pictures from some our past events</p>
 <div className="flex flex-col justify-start items-start gap-10 w-full">
 <div className="flex flex-col justify-start items-start gap-5">
-  <span className="bg-orange-500 px-5 py-2 inview">Musician's Corner Virtual Room Episode 1</span>
+  <span className="bg-orange-500 px-5 py-2 inview">Musician&apos;s Corner Virtual Room Episode 1</span>
   <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
     <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
@@ -161,7 +161,7 @@ Join us as we build a community of passionate music lovers and creators.
     </div>
   </div>
 <div className="flex flex-col justify-start items-start gap-5">
-  <span className="bg-orange-500 px-5 py-2 inview">Musician's Corner Virtual Room Episode 2</span>
+  <span className="bg-orange-500 px-5 py-2 inview">Musician&apos;s Corner Virtual Room Episode 2</span>
     <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
     <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
@@ -181,7 +181,7 @@ Join us as we build a community of passionate music lovers and creators.
     </div>
   </div>
 <div className="flex flex-col justify-start items-start gap-5">
-  <span className="bg-orange-500 px-5 py-2 inview ">Musician's Hangout</span>
+  <span className="bg-orange-500 px-5 py-2 inview ">Musician&apos;s Hangout</span>
   <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
   <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
