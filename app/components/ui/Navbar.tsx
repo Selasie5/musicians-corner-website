@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -39,7 +39,12 @@ const Navbar = () => {
       <nav className="flex justify-between items-center">
         {/* Logo */}
         <div>
-          <Image src="/mc_logo.png" alt="musicians-corner-logo" width={100} height={100} />
+          <Image
+            src="/mc_logo.png"
+            alt="musicians-corner-logo"
+            width={100}
+            height={100}
+          />
         </div>
 
         {/* Menu Icon for Mobile */}
@@ -54,15 +59,15 @@ const Navbar = () => {
 
         {/* Navigation Links */}
         <div
-          className={`flex-col lg:flex lg:flex-row lg:gap-10 absolute lg:static left-0 top-20 lg:top-auto w-full lg:w-auto bg-black lg:bg-transparent transition-transform duration-300 ${
-            isMenuOpen ? "flex" : "hidden"
+          className={`flex-col lg:flex lg:flex-row lg:gap-10 absolute lg:static left-0 top-0 lg:top-auto w-full lg:w-auto bg-black lg:bg-transparent transition-transform duration-300 ${
+            isMenuOpen ? "flex bg-opacity-90 h-screen py-20" : "hidden"
           }`}
         >
           {Links.map((link, index) => (
             <Link
               href={link.path}
               key={index}
-              className="text-white hover:text-orange-500 block lg:inline-block text-center py-2 lg:py-0"
+              className="text-white hover:text-orange-500 block lg:inline-block text-center py-4 lg:py-0"
             >
               {link.name}
             </Link>
@@ -76,6 +81,14 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
+
+      {/* Overlay background for mobile menu */}
+      {isMenuOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-70 z-10"
+          onClick={() => setIsMenuOpen(false)}
+        />
+      )}
     </section>
   );
 };

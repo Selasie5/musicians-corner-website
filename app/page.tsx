@@ -100,8 +100,8 @@ View Upcoming Events
       </div>
       </section>
 
-    <section className="flex justify-center items-center gap-36" id="about">
-      <div className="w-1/2 flex flex-col gap-4">
+    <section className="flex flex-col md:flex-row justify-center items-center gap-36" id="about">
+      <div className="md:w-1/2 w-full flex flex-col gap-4">
           <h1 className=" text-white text-3xl font-bold inview"> 
            <span className="bg-orange-500 rounded-xl p-1">
            🎶
