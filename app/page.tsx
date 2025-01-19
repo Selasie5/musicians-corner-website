@@ -152,7 +152,7 @@ Join us as we build a community of passionate music lovers and creators.
 <div className="flex flex-col justify-start items-start gap-10 w-full">
 <div className="flex flex-col justify-start items-start gap-5">
   <span className="bg-orange-500 px-5 py-2 inview">Musician&apos;s Corner Virtual Room Episode 1</span>
-  <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+  <div className="flex flex-wrap gap-10 inview">
     <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
     <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
@@ -162,7 +162,7 @@ Join us as we build a community of passionate music lovers and creators.
   </div>
 <div className="flex flex-col justify-start items-start gap-5">
   <span className="bg-orange-500 px-5 py-2 inview">Musician&apos;s Corner Virtual Room Episode 2</span>
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+    <div className="flex flex-wrap gap-10 inview">
     <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
     <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
@@ -172,7 +172,7 @@ Join us as we build a community of passionate music lovers and creators.
   </div>
 <div className="flex flex-col justify-start items-start gap-5">
   <span className="bg-orange-500 px-5 py-2 inview ">Mixing and Mastering Class</span>
-  <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+  <div className="flex flex-wrap gap-10 inview">
   <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
     <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
@@ -182,7 +182,7 @@ Join us as we build a community of passionate music lovers and creators.
   </div>
 <div className="flex flex-col justify-start items-start gap-5">
   <span className="bg-orange-500 px-5 py-2 inview ">Musician&apos;s Hangout</span>
-  <div className="grid grid-cols-2 md:grid-cols-5 gap-10 inview">
+  <div className="flex flex-wrap gap-10 inview">
   <Image src="/Newest-187.jpg" width={200} height={200} alt="" />
     <Image src="/Newest-185.jpg" width={200} height={200} alt=""/>
     <Image src="/Newest-184.jpg" width={200} height={200} alt="" />
